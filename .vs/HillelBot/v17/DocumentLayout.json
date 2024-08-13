@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "D:\\C\u002B\u002BBasic\\Lesson_16_Programm_1\\HillelBot\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F0490FA2-1D18-471F-A9F8-EB40147F61C5}|HillelBot\\HillelBot.vcxproj|D:\\C\u002B\u002BBasic\\Lesson_16_Programm_1\\HillelBot\\HillelBot\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{F0490FA2-1D18-471F-A9F8-EB40147F61C5}|HillelBot\\HillelBot.vcxproj|solutionrelative:HillelBot\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+      "AbsoluteMoniker": "D:0:0:{F0490FA2-1D18-471F-A9F8-EB40147F61C5}|src\\HillelBot.vcxproj|D:\\C\u002B\u002BBasic\\Lesson_16_Programm_1\\HillelBot\\src\\CMakeList.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F0490FA2-1D18-471F-A9F8-EB40147F61C5}|src\\HillelBot.vcxproj|solutionrelative:src\\CMakeList.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0490FA2-1D18-471F-A9F8-EB40147F61C5}|src\\HillelBot.vcxproj|D:\\C\u002B\u002BBasic\\Lesson_16_Programm_1\\HillelBot\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F0490FA2-1D18-471F-A9F8-EB40147F61C5}|src\\HillelBot.vcxproj|solutionrelative:src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,15 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "README.md",
-              "DocumentMoniker": "D:\\C\u002B\u002BBasic\\Lesson_16_Programm_1\\HillelBot\\HillelBot\\README.md",
-              "RelativeDocumentMoniker": "HillelBot\\README.md",
-              "ToolTip": "D:\\C\u002B\u002BBasic\\Lesson_16_Programm_1\\HillelBot\\HillelBot\\README.md",
-              "RelativeToolTip": "HillelBot\\README.md",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2024-08-13T16:44:41.306Z",
+              "Title": "CMakeList.txt",
+              "DocumentMoniker": "D:\\C\u002B\u002BBasic\\Lesson_16_Programm_1\\HillelBot\\src\\CMakeList.txt",
+              "RelativeDocumentMoniker": "src\\CMakeList.txt",
+              "ToolTip": "D:\\C\u002B\u002BBasic\\Lesson_16_Programm_1\\HillelBot\\src\\CMakeList.txt",
+              "RelativeToolTip": "src\\CMakeList.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-08-13T17:05:09.915Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\C\u002B\u002BBasic\\Lesson_16_Programm_1\\HillelBot\\src\\main.cpp",
+              "RelativeDocumentMoniker": "src\\main.cpp",
+              "ToolTip": "D:\\C\u002B\u002BBasic\\Lesson_16_Programm_1\\HillelBot\\src\\main.cpp",
+              "RelativeToolTip": "src\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-13T17:04:21.911Z"
             }
           ]
         }

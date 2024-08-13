@@ -1,3 +1,15 @@
 https://www.youtube.com/watch?v=55RpVzJdRIs&t=3s
 
+git clone --recurse-submodules https://github.com/Oleksii-Kshenskyi/hillelbot.git
+
+git status
+git add .
+git commit -m 'project'
+git push -u origin main
+
 git log --oneline --decorate --graph --all -5	-last 5 commits
+alias gitlog="git log --oneline --decorate --graph --all -5"	-make alias
+
+git reset --hard HEAD~1		- cancel last commit
+git checkout main
+git pull			- set it back
