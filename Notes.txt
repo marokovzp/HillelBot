@@ -16,10 +16,13 @@ git pull			- set it back
 
 rm -rf ./*      - remove all files  
 
-cmake .. -G "Visual Studio 17 2022"     - build project files (!!! from build folder), then open .sln with VisStudio
+cmake .. -G "Visual Studio 17 2022"     - generate build project files to ready builded files (!!! from build folder), then open .sln with VisStudio
 
 cmake .. -G "Unix Makefiles"            - build project files (2 variant crossplatform)
 make                                    - made exe file
 
 cmake .. -G "Ninja"                     - build project files (3 variant crossplatform)
 Ninja                                   - made exe file
+
+git clone https://github.com/microsoft/vcpkg.git
+git submodule add --name vcpkg ./vcpkg  - add vcpkg as connected module
