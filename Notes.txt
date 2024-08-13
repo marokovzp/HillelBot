@@ -13,3 +13,7 @@ alias gitlog="git log --oneline --decorate --graph --all -5"	-make alias
 git reset --hard HEAD~1		- cancel last commit
 git checkout main
 git pull			- set it back
+
+rm -rf ./*      - remove all files  
+
+cmake .. -G "Visual Studio 17 2022"     - build project files
