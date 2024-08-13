@@ -1,1 +1,3 @@
-Hillel C++ Bot
+# Hillel C++ Bot
+
+Бот С++ Hillel
