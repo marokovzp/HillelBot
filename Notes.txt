@@ -26,3 +26,6 @@ Ninja                                   - made exe file
 
 git clone https://github.com/microsoft/vcpkg.git
 git submodule add --name vcpkg ./vcpkg  - add vcpkg as connected module
+
+vcpkg/bootstrap-vcpkg.sh                - upload exe file 
+vcpkg/vcpkg.exe integrate install       - for VisStudio
