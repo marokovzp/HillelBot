@@ -20,3 +20,5 @@ target_link_libraries(${My}${PROJECT_NAME} PRIVATE
                         nlohmann_json::nlohmann_json 
                         cpr::cpr 
                         fmt::fmt)
+
+set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT ${My}${PROJECT_NAME})
