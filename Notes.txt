@@ -1,5 +1,5 @@
 https://www.youtube.com/watch?v=55RpVzJdRIs&t
-https://www.youtube.com/watch?v=mXpFtWLWUM4&t=677s
+https://www.youtube.com/watch?v=mXpFtWLWUM4&t
 
 git clone --recurse-submodules https://github.com/Oleksii-Kshenskyi/hillelbot.git
 
