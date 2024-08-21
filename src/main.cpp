@@ -26,7 +26,7 @@ int main() {
 
     // Виконати GET-запит до публічного API
     std::string base_url = (std::stringstream() << "http://api.telegram.org/" << secret).str();
-    cpr::Response r = cpr::Get(cpr::Url{ base_url, "/getUpdates?offset=217951017" });
+    cpr::Response r = cpr::Get(cpr::Url{ base_url, "/getUpdates?offset=217951020" });
 
     // Вивести статус код відповіді
     //std::cout << "Status Code: " << r.status_code << std::endl;
@@ -34,6 +34,12 @@ int main() {
 
     // Парсити JSON відповідь
     nlohmann::json jsonResponse = nlohmann::json::parse(r.text);
+    std::cout << "Result" << std::setw(2)<< jsonResponse["result"] << std::endl;
+
+    if (!jsonResponse["result"].size()) {
+       std::cout << "There has been no updates on the bot!" << std::endl;
+       return 0;
+    }
 
     // Вивести певне поле з JSON відповіді
     //std::cout << "===JSON===\n " << std::setw(2) << jsonResponse << std::endl;
@@ -44,10 +50,11 @@ int main() {
 
        //int chat_id = jsonResponse["result"][0]["message"]["chat"]["id"].get<int>();
        int64_t chat_id = user_message["message"]["chat"]["id"].get<int>();
+       std::string user_text = user_message["message"]["text"].get<std::string>();
 
        cpr::Payload p{
           {"chat_id", std::to_string(chat_id)},
-          {"text", "NEW BOT Massage"}
+          {"text", user_text}
        };
        //std::cout << "Chat ID = " << chat_id << std::endl;
 
